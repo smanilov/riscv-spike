@@ -1,4 +1,4 @@
-FROM ubuntu:19.10
+FROM ubuntu:24.10
 
 RUN apt-get update -y && apt-get install -y git gcc make g++ device-tree-compiler
 
